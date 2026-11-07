@@ -1,7 +1,107 @@
-<!DOCTYPE html><html lang="ru"><head>
-<meta charset="UTF-8">
-<meta http-equiv="refresh" content="0; url=https://avtar7770132-blip.github.io/proschet-hub/">
-<title>Просчёт — онлайн-калькуляторы</title>
-</head><body>
-<p>Переходим на сайт… <a href="https://avtar7770132-blip.github.io/proschet-hub/">Просчёт — онлайн-калькуляторы</a></p>
-</body></html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Все проекты avtar7770132-blip · Калькуляторы и сервисы</title>
+    <meta name="description" content="Навигация по проектам: Просчёт, ЗдоровьеНавигатор, АвтоШтурман, Кулинарный Штурман и Дача-Счёт. Бесплатные онлайн-инструменты.">
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            max-width: 900px; 
+            margin: 40px auto; 
+            padding: 20px; 
+            background: #f6f8fa; 
+            color: #24292e; 
+            text-align: center; 
+        }
+        h1 { font-size: 2rem; margin-bottom: 10px; color: #0366d6; }
+        p.subtitle { color: #586069; font-size: 1.1rem; margin-bottom: 40px; }
+        
+        .nav-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 20px; 
+            margin-bottom: 40px;
+        }
+        
+        .project-card { 
+            background: white; 
+            padding: 25px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+            text-decoration: none; 
+            color: inherit; 
+            transition: all 0.3s ease; 
+            border: 1px solid #e1e4e8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .project-card:hover { 
+            transform: translateY(-5px); 
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12); 
+            border-color: #0366d6;
+        }
+        
+        .icon { font-size: 3rem; margin-bottom: 15px; display: block; }
+        .title { font-size: 1.3rem; font-weight: bold; margin-bottom: 10px; color: #0366d6; }
+        .desc { font-size: 0.95rem; color: #586069; line-height: 1.5; }
+        
+        footer { margin-top: 50px; color: #959da5; font-size: 0.9rem; border-top: 1px solid #e1e4e8; padding-top: 20px; }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 1.5rem; }
+            .nav-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🚀 Мои проекты</h1>
+    <p class="subtitle">Выберите сервис для перехода</p>
+
+    <div class="nav-grid">
+        <!-- ПРОСЧЁТ -->
+        <a href="/proschet-hub/" class="project-card">
+            <span class="icon">💰</span>
+            <div class="title">Просчёт</div>
+            <div class="desc">Калькуляторы ипотеки, зарплаты, налогов и ремонта. Финансовая грамотность.</div>
+        </a>
+
+        <!-- ЗДОРОВЬЕ -->
+        <a href="/healthnavigator/" class="project-card">
+            <span class="icon">❤️</span>
+            <div class="title">ЗдоровьеНавигатор</div>
+            <div class="desc">ИМТ, норма воды, давление, БЖУ и дешифратор анализов.</div>
+        </a>
+
+        <!-- АВТО -->
+        <a href="/autonavigatorstar/" class="project-card">
+            <span class="icon">🚗</span>
+            <div class="title">АвтоШтурман</div>
+            <div class="desc">Расход топлива, стоимость владения, штрафы и подбор масла.</div>
+        </a>
+
+        <!-- КУЛИНАРИЯ -->
+        <a href="/culinarynavigator/" class="project-card">
+            <span class="icon">🍳</span>
+            <div class="title">Кулинарный Штурман</div>
+            <div class="desc">Калькуляторы recipes, стоимости блюд и консервации.</div>
+        </a>
+
+        <!-- ДАЧА -->
+        <a href="/dachaschet/" class="project-card">
+            <span class="icon">🌱</span>
+            <div class="title">Дача-Счёт</div>
+            <div class="desc">Расчет семян, удобрений и лунный календарь для огорода.</div>
+        </a>
+    </div>
+
+    <footer>
+        © 2026 avtar7770132-blip · Все права защищены
+    </footer>
+
+</body>
+</html>
